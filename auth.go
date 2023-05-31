@@ -1,4 +1,4 @@
-package traefik-melon-auth-middleware
+package melon-auth-middleware
 
 import (
 	"context"
