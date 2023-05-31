@@ -1,7 +1,7 @@
 displayName: Keycloak Auth Middleware
 type: middleware
 
-import: github.com/kehindesamson/traefik-melon-auth-middleware
+import: github.com/samsonkehinde/melon-auth-middleware
 
 summary: 'Make a Client Credentials OIDC request to a IAM server to get an access token needed to authenticate further request.'
 
