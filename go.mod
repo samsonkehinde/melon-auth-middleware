@@ -1,3 +1,3 @@
-module github.com/kehindesamson/traefik-melon-auth-middleware
+module github.com/samsonkehinde/melon-auth-middleware
 
 go 1.15
