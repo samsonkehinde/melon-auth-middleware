@@ -1,0 +1,14 @@
+displayName: Keycloak Auth Middleware
+type: middleware
+
+import: github.com/kehindesamson/traefik-melon-auth-middleware
+
+summary: 'Make a Client Credentials OIDC request to a IAM server to get an access token needed to authenticate further request.'
+
+testData:
+  IAM:
+    Url: http://melon-keycloak:8080/realms/melon/protocol/openid-connect/token
+    ClientId: melondrive.app
+    ClientSecret: JorfNWAiRDwHSjsbiNnlcKCZ770pJmQE
+    UserParam: Username
+    PasswordParam: Password
